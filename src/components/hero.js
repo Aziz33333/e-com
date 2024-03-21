@@ -1,7 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCommentAlt } from '@fortawesome/free-solid-svg-icons';
+
 import bb from '../assets/bb.mp4';
 
 
@@ -50,9 +49,7 @@ function AppCarousel() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      <div style={{ position: 'fixed', bottom: '20px', right: '20px', zIndex: '1000' }}>
-        <FontAwesomeIcon icon={faCommentAlt} style={{ color: '#000', fontSize: 'px', cursor: 'pointer' }} />
-      </div>
+     
     </div>
   );
 }

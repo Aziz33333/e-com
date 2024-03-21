@@ -1,12 +1,16 @@
 import React from 'react';
-import './form.css';
+import './connexion.css';
 
-const Form = () => {
+const Connexion= () => {
   return (
     <div className='loginsignup'>
-      <div className='loginsignup-container'>
+     <div className='loginsignup-container'>
         {/* Titre du formulaire */}
-        <h1>form</h1>
+        <h1>registre</h1>
+        <div className='input-group'>
+          <input required type='text' name='email' autoComplete='off' className='input' />
+          <label className='user-label'>name</label>
+        </div>
         {/* Champ de saisie de l'email */}
         <div className='input-group'>
           <input required type='text' name='email' autoComplete='off' className='input' />
@@ -26,9 +30,12 @@ const Form = () => {
           <input type='checkbox' name='' id='' />
           <p>By continuing, I agree to the terms of use & privacy policy.</p>
         </div>
+    
       </div>
+      {/* Image illustrative */}
+      <img src="https://pbs.twimg.com/media/GAlulF5a0AAMQkP?format=jpg&name=4096x4096" alt="Illustration" className="form-image" />
     </div>
   );
 }
 
-export default Form;
+export default Connexion;

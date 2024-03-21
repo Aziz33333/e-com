@@ -11,6 +11,8 @@ import Main from './components/main';
 import AppContact from './components/contact';
 import AppCarte from './components/carte';
 import Form from './components/form/form';
+import Connexion from './components/connexion/connexion';
+import Chat from './components/chatbot/chat';
 
 function App() {
   return (
@@ -27,7 +29,10 @@ function App() {
       
       <AppFooter></AppFooter>
       <AppCarte ></AppCarte>
-      <Form/>
+      <Form></Form>
+      <Connexion></Connexion>
+      <Chat></Chat>
+      
 
     </main>
     </div>

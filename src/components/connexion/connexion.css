@@ -1,0 +1,73 @@
+.loginsignup {
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    width: 100%;
+    height: 100vh;
+    background: #77777a;
+    padding-top: 8px;
+  }
+  
+  .loginsignup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrer horizontalement */
+    width: 50%; /* Définir la largeur du conteneur du formulaire à 50% */
+    background: white;
+    padding: 20px 30px;
+  }
+  
+  .loginsignup-container h1 {
+    margin: 10px 0;
+  }
+  
+  .loginsignup-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 30px;
+    width: 100%; /* Définir la largeur des champs de formulaire à 100% */
+  }
+  
+  .loginsignup-fields input {
+    height: 50px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid #363535;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+  }
+  
+  .loginsignup-container button {
+    width: 100%;
+    height: 50px;
+    color: white;
+    background: #000000;
+    margin-top: 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+  }
+  
+  .loginsignup-login span {
+    color: #8593b3;
+    font-weight: 500;
+  }
+  
+  .loginsignup-agree {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    color: #5c5c5c;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .form-image {
+    width: 29.3%; /* Définir la largeur de l'image pour occuper 50% de l'écran */
+    height: auto;
+  }
+  

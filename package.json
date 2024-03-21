@@ -19,6 +19,7 @@
     "react-player": "^2.14.1",
     "react-responsive-carousel": "^3.2.23",
     "react-scripts": "5.0.1",
+    "sass": "^1.71.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -44,5 +45,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-private-property-in-object": "^7.23.4",
+    "resolve-url-loader": "^5.0.0"
   }
 }
